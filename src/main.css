@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Baloo|Gloria+Hallelujah|Press+Start+2P');
 /* NAVBAR
 -------------------------------------------------- */
 
@@ -70,14 +71,40 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+ {
+  font-family: 'Indie Flower', cursive;
+}
 body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
+
+}
+.header h1 {
+  font-family: 'Dosis', cursive;
+  font-size: 60px;
+  color: blue;
+  font-weight: 200;
 }
 
+.header h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+.tagline h3 {
+  font-family: 'Indie Flower', cursive;
+}
+.skills h3 {
+  font-family: 'Indie Flower', cursive;
+}
+.contact h3 {
+  font-family: 'Indie Flower', cursive;
+}
+.tagline {
+  font-family: 'Raleway', serif;
+}
 .footer,
 footer {
+  font-family: 'Indie Flower', serif;
   position: absolute;
   bottom: 0;
   width: 100%;
